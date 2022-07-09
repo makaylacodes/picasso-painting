@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(184, 132, 46);
+    background-color: rgb(17, 39, 64);
   }
   
 #back-wall {
-    background-color: #8B4513;
+    background-color: #304366;
     width: 100%;
     height: 60%;
 
@@ -21,9 +21,9 @@ body {
   }
 
   #offwhite-character{
-    background-color:GhostWhite;
+    background-color:rgb(53, 39, 70);
     width: 300px;
-    height: 550px;
+    height: 450px;
     position:absolute;
     top:20%;
     left:17.5%;
@@ -37,7 +37,7 @@ body {
     border-top-color:transparent;
     border-right-color:transparent;
     border-left-color:transparent;
-    border-bottom-color:GhostWhite;
+    border-bottom-color:rgba(3, 91, 120, 0.907);
     top:-140px;
     position:absolute;
     left:0;
@@ -46,7 +46,7 @@ body {
   #black-mask{
     width:100%;
     height:50px;
-    background-color:rgb(45, 31, 19);
+    background-color:rgb(27, 14, 2);
     position:absolute;
     top:0;
     left:0;
@@ -54,9 +54,9 @@ body {
   }
 
   #gray-instrument{
-    height:40%;
+    height:49%;
     width:15%;
-    background-color:rgb(167, 162, 117);
+    background-color:rgb(29, 109, 207);
     position:absolute;
     top:50px;
     left:125px;
@@ -65,8 +65,8 @@ body {
 
   .black-dot{
     background-color:rgb(45, 31, 19);
-    width:10px;
-    height:10px;
+    width:20px;
+    height:20px;
     /*makes it round*/
     border-radius:50%;
     display:block;
@@ -78,7 +78,7 @@ body {
   #tan-table{
     width:450px;
     height:140px;
-    background-color:#D2691E;
+    background-color:#055f78d8;
     position:absolute;
     top:275px;
     left:15px;
@@ -104,7 +104,7 @@ body {
     border-top-color:transparent;
     border-right-color:transparent;
     border-bottom-color:transparent;
-    border-left-color:rgb(45, 31, 19);
+    border-left-color:rgba(45, 146, 149, 0.979);
     position: absolute;
     top: -150px;
     left: 0;
@@ -113,7 +113,7 @@ body {
 /*id selector*/
   #gray-mask {
     width: 150px;
-    background-color: rgb(167, 162, 117);
+    background-color: rgb(53, 115, 196);
     height: 150px;
     position: absolute;
     top: -10px;
@@ -124,7 +124,7 @@ body {
   #white-paper{
     width: 400px;
     height: 100px;
-    background-color: GhostWhite;
+    background-color: rgba(49, 49, 210, 0.73);
     position:absolute;
     top: 250px;
     left:-150px;
@@ -142,7 +142,7 @@ body {
 
   /*class selector*/
   .blue{
-    background-color: #1E90FF;
+    background-color: #09414e;
   }
 
 /*id selector*/
@@ -167,7 +167,7 @@ body {
 #orange-character{
   width: 250px;
   height:550px;
-  background-color:rgb(240, 78, 42);
+  background-color:rgb(89, 115, 159);
   position: absolute;
   top: 25%;
   left:40%; 
@@ -175,9 +175,9 @@ body {
 
 /*id selector*/
 #black-round-hat{
-  width:180px;
+  width:250px;
   height:150px;
-  background-color: rgb(45, 31, 19);
+  background-color: rgb(47, 126, 130);
   border-radius:50%;
   position:absolute;
   top: -100px;
@@ -193,6 +193,7 @@ body {
   top: -40px;
   left: 20px;
   z-index: 3;
+  
 }
 /*id selector*/
 #triangles{
@@ -209,7 +210,7 @@ body {
   border-top-color: transparent;
   border-bottom-color: transparent;
   border-left-color: transparent;
-  border-right-color: Gold;
+  border-right-color: rgb(0, 183, 255);
   display: inline-block;
 }
 
@@ -226,7 +227,7 @@ body {
 .guitar{
   width:150px;
   height: 120px;
-  background-color: Goldenrod;
+  background-color: rgb(34, 34, 108);
   border-radius:50%;
 }
 
@@ -249,7 +250,7 @@ body {
 #guitar-neck{
   width:200px;
   height: 30px;
-  background-color: #D2691E;
+  background-color: #67ebff;
   position: absolute;
   top: 45px;
   left: 200px;
@@ -257,9 +258,9 @@ body {
 }
 
 .eyes{
-  width: 35px;
+  width: 45px;
   height: 20px;
-  background-color: #8B4513;
+  background-color: #fff3eb;
   border-radius: 20px 50%;
 }
 
