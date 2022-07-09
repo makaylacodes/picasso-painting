@@ -279,3 +279,26 @@ body {
 .fas{
   font-size: 30px;
 }
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  text-align: center;
+  background-color: #006a78;
+  color: #fff3eb;
+  bottom: 0;
+  width: 100%;
+  font-size: x-large;
+  font-weight: bold;
+  margin: auto;
+  height: 5.5rem;            /* Footer height */
+}
